@@ -1,9 +1,11 @@
-// const PrimeNumber = (num) => {
-//   if (num % 2 === 0) {
-//     console.log("Good for ATM");
-//   } else {
-//     console.log("Not accepted for ATM");
-//   }
-// };
+const PrimeNumber = (num) => {
+	for (let i = 2; i < num; i++) {
+		if (num % i === 0) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+};
 
-// PrimeNumber(1600);
+console.log(PrimeNumber(4));
