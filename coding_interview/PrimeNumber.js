@@ -1,11 +1,14 @@
 const PrimeNumber = (num) => {
-	for (let i = 2; i < num; i++) {
-		if (num % i === 0) {
-			return false;
-		} else {
-			return true;
-		}
-	}
+  if (num <= 2) {
+    return false;
+  }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+    } else {
+      return true;
+    }
+  }
 };
 
 console.log(PrimeNumber(4));
