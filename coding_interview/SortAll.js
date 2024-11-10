@@ -1,3 +1,4 @@
+// Sort() method only for array, if string then use split("") for converting array
 // for number array Assending
 const numberArray_ascending = ['10', '1', '12', '5'];
 const result1 = numberArray_ascending.sort((a, b) => a - b);
