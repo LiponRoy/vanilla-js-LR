@@ -7,3 +7,6 @@ console.log(maxNumber);
 const arr2 = [10, 25, 76, 45, 98, 7];
 const minNumber = Math.min(...arr2);
 console.log(minNumber);
+
+
+
