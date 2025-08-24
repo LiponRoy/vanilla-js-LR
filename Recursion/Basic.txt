@@ -1,0 +1,17 @@
+-> What is Recursion?
+
+Recursion is when a function calls itself in order to solve a problem. It usually has two main parts:
+
+Base Case – The condition when the recursion stops.
+
+Recursive Case – The part where the function calls itself with new arguments, gradually moving towards the base case.
+
+
+
+-> Important Tips
+
+Always have a base case to prevent infinite recursion.
+
+Recursion can be memory-heavy for large inputs — consider iteration or memoization for optimization.
+
+Use recursion for problems that can be broken into smaller subproblems, like trees, arrays, or mathematical sequences.
