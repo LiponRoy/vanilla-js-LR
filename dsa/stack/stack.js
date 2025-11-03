@@ -1,4 +1,6 @@
-// stack operation (LIFO) , 
+// stack operation (LIFO) ,
+// it's 3 operation push,pop,pick, pick means show top most element
+// just mind it, for the stack remove element use pop() because stack low is LIFO 
 class StackOperation {
   constructor() {
     // created empty array represent for empty stack
