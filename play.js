@@ -1,3 +1,13 @@
-const arr = [1,2,3,4];
-const rand = arr[Math.floor(Math.random()*arr.length)];
-console.log(rand);
+const func=(num)=>{
+let fac=1
+for (let i = 1; i <=num; i++) {
+  fac*=i
+}
+
+return fac;
+
+
+}
+
+
+console.log(func(5)); 

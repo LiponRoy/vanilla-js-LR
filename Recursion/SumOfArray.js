@@ -5,9 +5,8 @@ function sumArray(arr) {
     // Recursive case
     return arr[0] + sumArray(arr.slice(1));
 }
-
-console.log(sumArray([1, 2, 3, 4, 5])); // 15
-
+L
+console.log(sumArray([1, 2, 3, 4, 5])); // 15 
 
 
 // Explanation:
