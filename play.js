@@ -1,13 +1,9 @@
-const func=(num)=>{
-let fac=1
-for (let i = 1; i <=num; i++) {
-  fac*=i
-}
+const func = () => {
+let a = 6; let b = 7; 
 
-return fac;
-
-
-}
+[a,b]=[b,a]
+  return {a,b}
+};
 
 
-console.log(func(5)); 
+console.log(func());
